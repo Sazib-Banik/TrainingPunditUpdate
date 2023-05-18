@@ -1363,6 +1363,77 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- ===== script js link ===== -->
     <script src="./assets/js/script.js"></script>
+    <script>
+      //set your goal carousel active
+      $(".your-goal-carousel").owlCarousel({
+        margin: 7,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+      $(".top-course-carousel").owlCarousel({
+        margin: 7,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+      // top-category carousel
+      $(".top-category-carousel").owlCarousel({
+        loop: true,
+        margin: 7,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+      //partners-part carousel
+      $(".partnerslider").bxSlider({
+        minSlides: 4,
+        maxSlides: 4,
+        slideWidth: 170,
+        slideMargin: 10,
+        ticker: true,
+        speed: 10000,
+      });
+    </script>
   </body>
 </html>
 <!-- ===== _part start ===== -->
