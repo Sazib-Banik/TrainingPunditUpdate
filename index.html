@@ -1424,6 +1424,28 @@
           },
         },
       });
+      // top-category carousel
+      $(".feature-carousel").owlCarousel({
+        loop: true,
+        margin: 7,
+        dots: false,
+        nav: true,
+        autoplay: false,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+
       //partners-part carousel
       $(".partnerslider").bxSlider({
         minSlides: 4,
