@@ -73,24 +73,24 @@ new VenoBox({
 //   },
 // });
 //success story carousel
-var swiper = new Swiper(".success-story", {
-  effect: "coverflow",
-  centeredSlides: true,
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-});
+// var swiper = new Swiper(".success-story", {
+//   effect: "coverflow",
+//   centeredSlides: true,
+//   autoplay: {
+//     delay: 3500,
+//     disableOnInteraction: false,
+//   },
+//   grabCursor: true,
+//   centeredSlides: true,
+//   slidesPerView: "auto",
+//   coverflowEffect: {
+//     rotate: 50,
+//     stretch: 0,
+//     depth: 100,
+//     modifier: 1,
+//     slideShadows: true,
+//   },
+// });
 //feature-course carousel
 // $(".feature-carousel").owlCarousel({
 //   loop: true,
