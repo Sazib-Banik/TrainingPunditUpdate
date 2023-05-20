@@ -348,9 +348,9 @@ nav form button.btn:hover {
 .single-course:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.single-course .row {
+/* .single-course .row {
   padding: 5px 0;
-}
+} */
 .single-course .course-img img {
   height: 155px;
   width: 100%;
@@ -366,9 +366,43 @@ nav form button.btn:hover {
 }
 #top-course-part .course-details p {
   text-transform: capitalize;
-  font-weight: 600;
-  color: #000000;
-  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.single-course .rateing {
+  font-size: 13px;
+}
+.rate {
+  color: var(--primary-bgcolor);
+  font-weight: 900;
+}
+.rateing-star {
+  color: var(--secondary-bgcolor);
+}
+.total-review {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.single-course .course-duration {
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+.course-duration span {
+  margin-right: 8px;
+}
+.course-duration span.dot {
+  position: relative;
+}
+.course-duration span::before {
+  position: absolute;
+  content: "-";
+  left: -7px;
+  top: -5px;
+}
+.current-price {
+  font-size: 20px;
+  font-weight: 700;
 }
 .offer {
   text-decoration: line-through;
@@ -540,6 +574,11 @@ nav form button.btn:hover {
   font-size: 24px;
   margin-bottom: 5px;
 }
+.instructor-box .instructor-box-content h6 {
+  color: var(--secondary-color);
+  font-size: 16px;
+  margin-bottom: 7px;
+}
 .instructor-box .instructor-box-content p {
   font-size: 14px;
   margin-bottom: 5px;
@@ -556,6 +595,16 @@ nav form button.btn:hover {
 .instructor-box:hover {
   transform: scale(1.02);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.instructor-rateing {
+  margin-bottom: 5px;
+}
+.instructor-rateing p {
+  margin-bottom: 0 !important;
+}
+.instructor-rateing p i {
+  color: var(--secondary-bgcolor);
+  margin-right: 5px;
 }
 #top-instructor .see-btn {
   display: block;
@@ -764,7 +813,7 @@ nav form button.btn:hover {
   border: 1px solid var(--primary-color);
   color: #fff;
   padding: 2px 11px;
-  width: 285px;
+  width: 320px;
   font-size: 18px;
   border-radius: 15px;
 }
