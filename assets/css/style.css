@@ -317,12 +317,13 @@ nav form button.btn:hover {
 /* ===== statistics_part end ===== */
 /* ===== setyourgoal-part_part start ===== */
 .goal-item {
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
   border: 1px solid var(--primary-bgcolor);
   border-radius: 15px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   margin-top: 35px;
   min-height: 205px;
   transition: 0.4s;
@@ -462,8 +463,10 @@ nav form button.btn:hover {
 /* ===== success-story_part start ===== */
 
 .success-part-left h3 {
-  font-size: 48px;
+  font-size: 35px;
   margin-bottom: 7px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 .success-part-left p {
   font-size: 18px;
@@ -494,11 +497,12 @@ nav form button.btn:hover {
   background-color: #fff;
 }
 .feature-item {
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
   border: 1px solid var(--primary-bgcolor);
   border-radius: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin-top: 35px;
   min-height: 205px;
@@ -525,8 +529,11 @@ nav form button.btn:hover {
   padding: 60px 0;
 }
 .instructor-content h2 {
-  font-size: 42px;
   color: var(--primary-color);
+  font-size: 35px;
+  margin-bottom: 7px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 .instructor-content p {
   color: var(--primary-color);
@@ -919,9 +926,12 @@ nav form button.btn:hover {
   height: 20px;
 }
 /* ===== copyright_part end ===== */
+
 /* 
   =====contact page css start=====
 */
+
+/* ===== contact_part css start ===== */
 #contact_part {
   padding: 120px 0;
 }
@@ -942,7 +952,8 @@ nav form button.btn:hover {
 .contact_content h1 {
   margin-bottom: 15px;
 }
-/* ===== contact_us_details start ====== */
+/* ===== contact_part css end ===== */
+/* ===== contact-form-part start ====== */
 .working-form-part {
   background-color: #0d1f3a;
   padding: 30px;
@@ -995,31 +1006,18 @@ nav form button.btn:hover {
 #contact-form-part label {
   color: var(--primary-color);
 }
+/* ===== contact-form-part end ====== */
+/* ===== office-address_part start ===== */
 .address {
   margin-top: 35px;
 }
 .address a {
   color: #000000;
 }
-/* .contact_form input,
-.contact_form select,
-.contact_form textarea {
-  font-size: 18px;
-  padding: 15px 20px;
+#office-address h4 {
+  margin-bottom: 10px;
 }
-.contact_form input:focus {
-  box-shadow: none;
-  border: 1px solid #ced4da;
-}
-.contact_form select:focus,
-.contact_form textarea:focus {
-  box-shadow: none;
-  border: 1px solid #ced4da;
-} */
+/* ===== office-address_part end ===== */
 
-.category_body_content,
-.privacy_body_content {
-  padding: 100px 0;
-}
 /* ===== _part start ===== */
 /* ===== _part end ===== */
